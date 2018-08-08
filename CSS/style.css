@@ -1,0 +1,168 @@
+*{
+	margin:0px;
+    padding:0px;
+}
+.topnav {
+    background-color: rgba(255, 255, 255, 0.69);
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.topnav a {
+	float: right;
+	color: #000000;
+	text-decoration: none;
+	margin-right: 45px;
+	font-size: 14px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-family: helvetica;
+	letter-spacing: 1.6px;
+}
+
+.topnav a:hover {
+	letter-spacing: 3.3px;
+}
+
+.containerdiv {
+	background-image: url(../img/beyonka.png);
+	background-size: 100%;
+	height: 600px;
+}
+
+.containerdiv>div {
+
+}
+
+.containerdiv>div>h1 {
+	padding-top: 15%;
+	text-align: center;
+	font-size: 100px;
+	color: #FFFFFF;
+
+}
+
+.containerdiv2 {
+	background: white;
+	height: 500px;
+}
+
+.containerdiv2>div {
+	padding-top: 110px;
+	padding-left: 100px;
+}
+
+.containerdiv2>div>h3 {
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+.containerdiv2>div>h2 {
+	font-weight: lighter;
+	font-size: 40px;
+}
+
+.containerdiv2>div>p>a {
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-weight: lighter;
+	text-decoration: none;
+	letter-spacing: 1.6px;
+	color: #cfc5ba;
+	float: right;
+	padding-right: 200px;
+}
+
+.containerdiv2>div>p>a:hover{
+	letter-spacing: 3.3px;
+}
+
+.containerdiv3 {
+	background: #cfc5ba;
+	height: 450px;
+}
+
+.containerdiv3>div {
+	padding-top: 110px;
+	padding-left: 100px;
+}
+
+.containerdiv3>div>h3 {
+	text-transform: uppercase;
+	font-family: helvetica;
+	font-weight: lighter;
+	color: #FFFFFF;
+	margin-bottom: 10px;
+}
+
+.containerdiv3>div>a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 50px;
+	letter-spacing: 2px;
+	line-height: 75px;
+}
+
+
+
+.subpage {
+	background-image: url(../img/marblewhite.jpg);
+	background-size: cover;
+	background-repeat: repeat;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	text-align: center;
+	font-family: helvetica;
+}
+
+.subpage>div>a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: lighter;
+	font-size: 50px;
+	letter-spacing: 2px;
+	line-height: 75px;
+}
+
+.subpage>.about>h1 {
+	font-size: 50px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+
+.about {
+	margin-left: 20%;
+	margin-right: 20%;
+	letter-spacing: 1px;
+	line-height: 20px;
+}
+
+.about>img {
+	height: 200px;
+	width: 200px;
+}
+
+.footer {
+	padding-top: 10px;
+	height: 10px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 12px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: #a6a6a6;
+    color: #FFFFFF;
+}
