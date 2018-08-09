@@ -1,3 +1,4 @@
+
 *{
   margin:0px;
     padding:0px;
@@ -160,20 +161,10 @@
   color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
 .banner {
   position: relative;
   width: 100%;
-  margin-bottom: 20px;
+
 }
 
 .banner>img {
@@ -213,7 +204,11 @@
 
 .podcontainer {
   position: relative;
-  height: 575.7px;
+  padding: 120px 180px;
+  height: 405px;
+  background-color: #929092;
+  margin-top: -4px;
+  color: white;
 }
 
 .podcontainer img {
@@ -222,18 +217,18 @@
 
 .podcontainer p {
   font-family: helvetica;
-  font-size: 50px;
-  font-weight: lighter;
+  font-size: 30px;
+  font-weight: 120;
 }
 
 
 /* Bottom right text */
 .bottom-right {
     position: absolute;
-    bottom: 120px;
-    right: 15px;
+    bottom: 200px;
+    right: 180px;
     font-family: helvetica;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -241,21 +236,19 @@
 /* Bottom right text */
 .bottom-right2 {
     position: absolute;
-    bottom: 0px;
-    right: 15px;
+    bottom: 105px;
+    right: 180px;
     font-family: helvetica;
-    font-size: 130px;
+    font-size: 80px;
     font-weight: bold;
     text-transform: uppercase;
-text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.41);
 }
 
 .columncontainer {
   width: 100%;
-  height: 500px;
-    display: flex;
+  display: flex;
   justify-content: center;
-  padding-top: 20px;
+  margin: 60px 0px;
 }
 
 .rightcontainer {
@@ -265,7 +258,7 @@ text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.41);
 
 }
 .leftcontainer {
-    margin-right: 100px;
+  margin-right: 100px;
   width: 480px;
   height: 480px;
 }
