@@ -32,7 +32,7 @@ html,body {
 }
 
 .containerdiv {
-	height: auto;
+	min-height: 100%;
 	}
 
 
@@ -93,11 +93,14 @@ html,body {
 
 .fa {
     padding: 10px;
-    margin-bottom: 20px;
     font-size: 12px;
     width: 10px;
     text-align: center;
     text-decoration: none;
     background: #a6a6a6;
     color: #FFFFFF;
+}
+.fa:hover {
+	background-color: white;
+	color: #a6a6a6;
 }
