@@ -29,7 +29,7 @@
 }
 
 .containerdiv {
-	background-image: url(../img/beyonka.png);
+	background-image: url(../IMG/beyonka.png);
 	background-size: 100%;
 	height: 600px;
 }
@@ -111,7 +111,7 @@
 
 
 .subpage {
-	background-image: url(../img/marblewhite.jpg);
+	background-image: url(../IMG/marblewhite.jpg);
 	background-size: cover;
 	background-repeat: repeat;
 	height: 100%;
