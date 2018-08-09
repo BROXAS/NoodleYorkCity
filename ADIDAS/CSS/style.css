@@ -446,12 +446,12 @@ text-shadow: -3px 0px 5px rgba(0, 0, 0, 0.41);
 
 .footer {
   background-color: white;
+  position: relative;
 }
 
 .footer-content {
   display: flex;
   justify-content: center;
-  /*padding: 20px 50px;*/
 }
 
 .ftcolumn {
