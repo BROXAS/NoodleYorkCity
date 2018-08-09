@@ -29,7 +29,7 @@
 }
 
 .containerdiv {
-	background-image: url(../IMG/beyonka.png);
+	background-image: url(../img/beyonka.png);
 	background-size: 100%;
 	height: 600px;
 }
@@ -111,7 +111,7 @@
 
 
 .subpage {
-	background-image: url(../IMG/marblewhite.jpg);
+	background-image: url(../img/marblewhite.jpg);
 	background-size: cover;
 	background-repeat: repeat;
 	height: 100%;
@@ -130,6 +130,10 @@
 	font-size: 50px;
 	letter-spacing: 2px;
 	line-height: 75px;
+}
+
+#projlink a:hover {
+	border-bottom: 3px solid black;
 }
 
 .subpage>.about>h1 {
