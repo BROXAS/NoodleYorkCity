@@ -37,8 +37,6 @@ html,body {
 
 
 
-
-
 .subpage {
 	background-image: url(../IMG/marblewhite.jpg);
 	background-size: cover;
@@ -62,7 +60,7 @@ html,body {
 }
 
 #projlink a:hover {
-	border-bottom: 3px solid black;
+	border-bottom: 2px solid black;
 }
 
 .subpage>.about>h1 {
@@ -77,12 +75,14 @@ html,body {
 	margin-left: 20%;
 	margin-right: 20%;
 	letter-spacing: 1px;
-	line-height: 20px;
+	line-height: 21px;
+	font-weight: lighter;
 }
 
 .about>img {
 	height: 200px;
 	width: 200px;
+	border-radius: 50%;
 }
 
 .footer {
