@@ -32,7 +32,7 @@ html,body {
 }
 
 .containerdiv {
-	min-height: 100%;
+	height: auto;
 	}
 
 
@@ -60,7 +60,7 @@ html,body {
 }
 
 #projlink a:hover {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid #d97f6c;
 }
 
 .subpage>.about>h1 {
@@ -83,6 +83,12 @@ html,body {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
+}
+
+
+
+.about>p>u,i,b {
+	color: #d97f6c;
 }
 
 .footer {
