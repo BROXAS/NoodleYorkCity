@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <!-- Add icon library -->
@@ -9,14 +10,16 @@
 
 <body>
 
-
+<!-- Container holding complicated nav bar mega menu -->
 <div class="navbar">
-  <img src="IMG/logo.png" alt="Logo">
-
+  <div class="navbarimg">
+    <img src="IMG/logo.png" alt="Logo">
+  </div>
+  <div class="navbarsearch">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search">
     </form>
-
+  </div>
   <ul class="navlist">
 
     <div class="dropdown">
@@ -509,116 +512,115 @@
       </div>
     </div>
   </div> 
-</div>
   </ul>
-  </div>
+</div>
 
 
-  <div class="midbar">
-    <a href="">Newsletter  Signup</a>
-  </div>
+<div class="midbar">
+  <a href="">Newsletter  Signup</a>
+</div>
 
+<!-- Container holding main banner -->
+<div class="banner">
+  <img src="IMG/banner.jpg" alt="banner">
+  <a href="#"><button id="bannerbtn">Shop Men
+    </button></a>
+  <a href="#"><button id="bannerbtn2">Shop Women
+    </button></a>
+</div>
 
-
-  <div class="banner">
-    <img src="IMG/banner.jpg" alt="banner">
-      <a href="#"><button id="bannerbtn">Shop Men
-        </button></a>
-      <a href="#"><button id="bannerbtn2">Shop Women
-        </button></a>
-  </div>
-
-  <div class="podcontainer">
-    <img src="IMG/running.jpg" alt="shoe" width="40%">
-    <p> “A new popular footwear <br> construction that unites three <br> heritage technologies in one.” </p>
+<!-- Container holding the POD System ad -->
+<div class="podcontainer">
+  <img src="IMG/running.jpg" alt="shoe" width="40%">
+  <p> “A new popular footwear <br> construction that unites three <br> heritage technologies in one.” </p>
   <div class="bottom-right">introducing</div><br>
   <div class="bottom-right2">p.o.d. systems</div><br>
+</div>
+
+<!-- Container holding two interactive ad buttons -->
+<div class="columncontainer"> 
+  <div class="leftcontainer">
+    <section id="grid" class="grid clearfix">
+    <a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
+    <figure>
+      <img src="IMG/soccer.jpg" alt="soccer" width="100%" height="100%" />
+        <button>Shop Soccer</button>
+    </figure>
+    </a>
+    </section>
   </div>
 
-<div class="columncontainer"> 
-<div class="leftcontainer">
-  <section id="grid" class="grid clearfix">
+  <div class="rightcontainer">
+    <section id="grid" class="grid clearfix">
     <a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
-      <figure>
-        <img src="IMG/soccer.jpg" alt="soccer" width="100%" height="100%" />
-          <button>Shop Soccer</button>
-      </figure>
-    </a>
-  </section>
-</div>
-
-<div class="rightcontainer">
-  <section id="grid" class="grid clearfix">
-    <a href="#" data-path-hover="m 180,34.57627 -180,0 L 0,0 180,0 z">
-      <figure>
-        <img src="IMG/kids.jpg" alt="kids" width="100%" height="100%" />
+    <figure>
+      <img src="IMG/kids.jpg" alt="kids" width="100%" height="100%" />
           <button>Shop Kids</button>
-      </figure>
+    </figure>
     </a>
-  </section>
+    </section>
+  </div>
 </div>
 
-</div>
-
+<!-- Container holding Stella ad -->
 <div class="adcontainer"> 
-    <img src="IMG/stella.png" alt="stella.jpg" width="100%" height="100%">
-    <div class="innerad">
-      <img src="IMG/stellalogo.jpg" alt="stella.jpg">
-      <h1>READY FOR ANY CONDITION</h1>
-      <p>Move with instinct. Rain or shine, the new adidas by Stella McCartney 
+  <img src="IMG/stella.png" alt="stella.jpg" width="100%" height="100%">
+  <div class="innerad">
+    <img src="IMG/stellalogo.jpg" alt="stella.jpg">
+    <h1>READY FOR ANY CONDITION</h1>
+    <p>Move with instinct. Rain or shine, the new adidas by Stella McCartney 
       outdoor collection is engineered for fierce performance with less impact.</p>
-      <a href="#"><button>Shop Collection</button></a>
-    </div>
+    <a href="#"><button>Shop Collection</button></a>
+  </div>
 </div>
 
-<div class="footer">
-    <div class="footer-content">
 
-          <div class="ftcolumn">
-          <h3>Customer Support</h3>
-          <a href="#">Help</a>
-          <a href="#">Order Tracker</a>
-          <a href="#">Returns & Refunds</a>
-          <a href="#">Sizing</a>
-          <a href="#">Store Locator</a>
-          <a href="#">Site Map</a>          
-        </div>
-        <div class="ftcolumn">
-          <h3>Company Info</h3>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Press</a>
-          <a href="#">Sustainability</a>
-          <a href="#">Affiliates</a>
-          <a href="#">Students</a>
-          <a href="#">Mobile Apps</a>
-        </div>
-        <div class="ftcolumn">
-          <h3>Partner Sites</h3>
-          <a href="#">adidas Outdoor</a>
-          <a href="#">miTeam</a>
-          <a href="#">adidas Archive</a>
-        </div>
-          <div class="ftcolumn">
-          <h3>Privacy & Terms</h3>
-          <a href="#">Privacy & Security</a>
-          <a href="#">adidas - Runtastic Privacy Statement</a>
-          <a href="#">Terms and Conditions</a>
-          <a href="#">Policy on Human Trafficing</a>
-        </div>
-          <div class="ftcolumn">
-          <h3>Gift Cards</h3>
-          <a href="#">Email a Gift Card</a>
-          <a href="#">Ship a Gift Card</a>
-          <a href="#">Check Balance</a>
-        </div>
-        
+<!-- Container holding footer mega menu -->
+<div class="footer">
+  <div class="footer-content">
+    <div class="ftcolumn">
+      <h3>Customer Support</h3>
+      <a href="#">Help</a>
+      <a href="#">Order Tracker</a>
+      <a href="#">Returns & Refunds</a>
+      <a href="#">Sizing</a>
+      <a href="#">Store Locator</a>
+      <a href="#">Site Map</a>          
     </div>
+    <div class="ftcolumn">
+      <h3>Company Info</h3>
+      <a href="#">About Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+      <a href="#">Sustainability</a>
+      <a href="#">Affiliates</a>
+      <a href="#">Students</a>
+      <a href="#">Mobile Apps</a>
+    </div>
+    <div class="ftcolumn">
+      <h3>Partner Sites</h3>
+      <a href="#">adidas Outdoor</a>
+      <a href="#">miTeam</a>
+      <a href="#">adidas Archive</a>
+    </div>
+    <div class="ftcolumn">
+      <h3>Privacy & Terms</h3>
+      <a href="#">Privacy & Security</a>
+      <a href="#">adidas - Runtastic Privacy Statement</a>
+      <a href="#">Terms and Conditions</a>
+      <a href="#">Policy on Human Trafficing</a>
+    </div>
+    <div class="ftcolumn">
+      <h3>Gift Cards</h3>
+      <a href="#">Email a Gift Card</a>
+      <a href="#">Ship a Gift Card</a>
+      <a href="#">Check Balance</a>
+    </div>   
+  </div>
   </div>
 
 <div class="end">
-
-
 </div>
+
 </body>
 </html>
