@@ -12,6 +12,7 @@ hr {
     border-width: 1px;
     width: 13px;
 } 
+
 .navbar {
   background: black;
   overflow: hidden;
@@ -270,18 +271,15 @@ hr {
 .columncontainer {
   width: 100%;
   display: flex;
-  justify-content: center;
   margin: 60px 0px;
 }
 
 .rightcontainer {
-  margin-left: 100px;
   width: 480px;
   height: 480px;
 
 }
 .leftcontainer {
-  margin-right: 100px;
   width: 480px;
   height: 480px;
 }

@@ -12,11 +12,13 @@ html,body {
     padding-bottom: 25px;
     position: fixed;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 
 }
 
-.topnav a {
-	float: right;
+.navcontainer a {
 	color: #000000;
 	text-decoration: none;
 	margin-right: 45px;
@@ -27,12 +29,12 @@ html,body {
 	letter-spacing: 1.6px;
 }
 
-.topnav a:hover {
+.navcontainer a:hover {
 	letter-spacing: 3.3px;
 }
 
-.containerdiv {
-	height: auto;
+.containerdiv img {
+	min-height: 100%;
 	}
 
 
